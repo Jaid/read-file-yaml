@@ -6,7 +6,7 @@ import readFileString from "read-file-string"
 /**
  * @function
  * @param {string} file Path to a file
- * @returns {Promise<string>} Object returned from YAML parsing
+ * @returns {Promise<Object|null>} Object returned from YAML parsing
  * @example
  * import readFileYaml from "read-file-yaml"
  * const result = await readFileYaml("package.yml")
