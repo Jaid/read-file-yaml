@@ -1,23 +1,23 @@
 # read-file-yaml
 
 
-Reads YAML from a file. Returns null if file does not exist (or is a directory) instead of throwing an Error.
+Reads YAML 1.2 from a file. Returns null if file does not exist (or is a directory) instead of throwing an Error.
 
 ## Installation
 <a href='https://npmjs.com/package/read-file-yaml'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
 ```bash
-npm install --save read-file-yaml@^0.1.0
+npm install --save read-file-yaml@^1.0.0
 ```
 <a href='https://yarnpkg.com/package/read-file-yaml'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
 ```bash
-yarn add read-file-yaml@^0.1.0
+yarn add read-file-yaml@^1.0.0
 ```
 
 
 
 ## Documentation
 **Kind**: Exported function  
-**Returns**: <code>Promise.&lt;string&gt;</code> - Object returned from json5.parse(fileString)  
+**Returns**: <code>Promise.&lt;string&gt;</code> - Object returned from YAML parsing  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -26,7 +26,7 @@ yarn add read-file-yaml@^0.1.0
 **Example**  
 ```javascript
 import readFileYaml from "read-file-yaml"
-const result = await readFileYaml("package.json")
+const result = await readFileYaml("package.yml")
 result.version === "1.2.3"
 ```
 
