@@ -4,7 +4,7 @@
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {
     "@babel/runtime": "^7.7.7",
-    "json5": "^2.1.1",
+    "js-yaml": "^3.13.1",
     "read-file-string": "^1.0.0"
   },
   "devDependencies": {
@@ -33,5 +33,5 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "read-file-yaml",
-  "description": "Reads YAML from a file. Returns null if file does not exist (or is a directory) instead of throwing an Error."
+  "description": "Reads YAML 1.2 from a file. Returns null if file does not exist (or is a directory) instead of throwing an Error."
 }

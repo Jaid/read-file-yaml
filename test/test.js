@@ -8,13 +8,13 @@ const indexModule = (process.env.MAIN ? path.resolve(process.env.MAIN) : path.jo
 const {default: readFileYaml} = indexModule
 
 it("should return string (async)", async () => {
-  const file = path.join(__dirname, "..", "package.json")
+  const file = path.join(__dirname, "hello.yml")
   const result = await readFileYaml(file)
-  expect(result.name).toBe("read-file-yaml")
+  expect(result).toStrictEqual(["Hewwo", "OwO"])
 })
 
 it("should return null for non-existing files (async)", async () => {
-  const file = path.join(__dirname, "..", "package.freddy")
+  const file = path.join(__dirname, "bye.yml")
   const result = await readFileYaml(file)
   expect(result).toBe(null)
 })

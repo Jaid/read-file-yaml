@@ -1,15 +1,15 @@
 /** @module read-file-yaml */
 
-import json5 from "json5"
+import jsYaml from "js-yaml"
 import readFileString from "read-file-string"
 
 /**
  * @function
  * @param {string} file Path to a file
- * @returns {Promise<string>} Object returned from json5.parse(fileString)
+ * @returns {Promise<string>} Object returned from YAML parsing
  * @example
  * import readFileYaml from "read-file-yaml"
- * const result = await readFileYaml("package.json")
+ * const result = await readFileYaml("package.yml")
  * result.version === "1.2.3"
  */
 export default async file => {
@@ -17,5 +17,7 @@ export default async file => {
   if (text === null) {
     return null
   }
-  return json5.parse(text)
+  return jsYaml.safeLoad(text, {
+    filename: file,
+  })
 }
