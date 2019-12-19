@@ -17,7 +17,7 @@ yarn add read-file-yaml@^1.0.0
 
 ## Documentation
 **Kind**: Exported function  
-**Returns**: <code>Promise.&lt;string&gt;</code> - Object returned from YAML parsing  
+**Returns**: <code>Promise.&lt;(Object\|null)&gt;</code> - Object returned from YAML parsing  
 
 | Param | Type | Description |
 | --- | --- | --- |
