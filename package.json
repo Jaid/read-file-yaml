@@ -33,5 +33,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "read-file-yaml",
-  "description": "Reads YAML 1.2 from a file. Returns null if file does not exist (or is a directory) instead of throwing an Error."
+  "description": "Reads YAML 1.2 from a file. Returns null if file does not exist (or is a directory) instead of throwing an Error.",
+  "funding": "https://github.com/sponsors/jaid"
 }
