@@ -1,9 +1,9 @@
 # read-file-yaml
 
 
-<a href="https://raw.githubusercontent.com/Jaid/read-file-yaml/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/read-file-yaml?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/read-file-yaml/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fread-file-yaml%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/read-file-yaml/commits"><img src="https://img.shields.io/github/commits-since/Jaid/read-file-yaml/v1.0.1?style=flat-square&logo=github" alt="Commits since v1.0.1"/></a> <a href="https://github.com/Jaid/read-file-yaml/commits"><img src="https://img.shields.io/github/last-commit/Jaid/read-file-yaml?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/read-file-yaml/issues"><img src="https://img.shields.io/github/issues/Jaid/read-file-yaml?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/read-file-yaml"><img src="https://img.shields.io/npm/v/read-file-yaml?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/read-file-yaml/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/read-file-yaml?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/read-file-yaml"><img src="https://img.shields.io/npm/dm/read-file-yaml?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/read-file-yaml/master/license.txt"><img src="https://img.shields.io/github/license/jaid/read-file-yaml?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor read-file-yaml"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/read-file-yaml/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Fread-file-yaml%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/read-file-yaml/commits"><img src="https://img.shields.io/github/commits-since/jaid/read-file-yaml/v1.0.1?style=flat-square&logo=github" alt="Commits since v1.0.1"/></a> <a href="https://github.com/jaid/read-file-yaml/commits"><img src="https://img.shields.io/github/last-commit/jaid/read-file-yaml?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/read-file-yaml/issues"><img src="https://img.shields.io/github/issues/jaid/read-file-yaml?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/read-file-yaml"><img src="https://img.shields.io/npm/v/read-file-yaml?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/read-file-yaml/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/read-file-yaml?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/read-file-yaml"><img src="https://img.shields.io/npm/dm/read-file-yaml?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Reads YAML 1.2 from a file. Returns null if file does not exist (or is a directory) instead of throwing an Error.**
 
@@ -37,14 +37,13 @@ yarn add read-file-yaml@^1.0.1
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/read-file-yaml.git
+git clone git@github.com:jaid/read-file-yaml.git
 cd read-file-yaml
 npm install
 ```
