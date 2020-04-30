@@ -39,5 +39,21 @@
     "url": "https://github.com/jaid/read-file-yaml"
   },
   "homepage": "https://github.com/Jaid/read-file-yaml",
-  "keywords": []
+  "keywords": [
+    "file",
+    "filesystem",
+    "fs",
+    "lib",
+    "library",
+    "loader",
+    "promise",
+    "read-file",
+    "read-yaml",
+    "util",
+    "utility",
+    "yaml",
+    "yaml-parser",
+    "yml",
+    "yml-parser"
+  ]
 }
