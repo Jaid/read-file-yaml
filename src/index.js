@@ -17,7 +17,7 @@ export default async file => {
   if (text === null) {
     return text
   }
-  return jsYaml.safeLoad(text, {
+  return jsYaml.load(text, {
     filename: file,
   })
 }
