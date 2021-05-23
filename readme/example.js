@@ -1,5 +1,9 @@
 import readFileYaml from "read-file-yaml"
 
-readFileYaml("./doesNotExist.yml").then(result => {
+readFileYaml("./exists.yml").then(result => {
+
+})
+
+readFileYaml("./doesNotExist.yml").then(result2 => {
 
 })
